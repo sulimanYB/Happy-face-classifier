@@ -1,0 +1,8 @@
+math
+pandas
+numpy
+random 
+h5py
+scipy
+matplotlib
+tensorflow
