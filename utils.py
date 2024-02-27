@@ -13,7 +13,7 @@ from tensorflow.keras.layers import Dense
 def summary(model):
     model.compile(optimizer='adam',
                   loss='categorical_crossentropy',
-                  metrics=['accuracy'])
+                  metrics=['auc'])
     result = []
     for layer in model.layers:
         descriptors = [layer.__class__.__name__, layer.output_shape, layer.count_params()]
